@@ -1,0 +1,27 @@
+body{
+    background-color: rgba(15, 15, 15, 0.932);
+    color: white;
+}
+iframe{
+    width: 100%;
+}
+.bg-sec{
+    background-color:#ffb20f
+  }
+  .cast-container{
+    
+     display: flex;
+     overflow: auto;
+    
+
+  }
+  .cast-box{
+    width: 150px ;
+    height: auto;
+    background-color: #ffb20f;
+    margin: 1.5rem;
+    color: black;
+    
+   
+
+  }
