@@ -42,7 +42,7 @@ const MovieDetails = () => {
          <>
        
 
-        <div className="container p-0 mt-3  ">
+        <div className="container p-0 mt-3 mb-5 ">
         {isLoading && <p>Please wait as your request is been loaded.....</p>}
 
       {error ? <p>{error}</p> :
@@ -92,7 +92,7 @@ const MovieDetails = () => {
                      
                     <p>Released date : {movieList.release_date}</p>
 
-                    <div>
+                    <div className='mb-5'>
                       <>Production Companies : </>
                           {movieList.production_companies && movieList.production_companies.map(company => 
 
