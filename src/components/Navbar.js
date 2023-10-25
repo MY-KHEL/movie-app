@@ -43,7 +43,7 @@ const Navbar = () => {
     </div>
   </div>
 </nav>
-<BottomNavigation  sx={{ position: 'fixed', bottom: 0, left: 0, right: 0}}  value={value} onChange={handleChange} className="d-md-none  " style={{'backgroundColor':'#CA5310'}}>
+<BottomNavigation  sx={{ position: 'fixed', bottom: 0, left: 0, right: 0}}  value={value} onChange={handleChange} className="d-md-none  " style={{'backgroundColor':'#CA5310','zIndex':'99'}}>
       <Link to ='/'>
       <BottomNavigationAction
         label="Home"
